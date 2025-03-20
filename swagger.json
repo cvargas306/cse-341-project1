@@ -5,9 +5,10 @@
     "description": "Contacts Api",
     "version": "1.0.0"
   },
-  "host": "project1-ksco.onrender.com",
+  "host": "https://project1-ksco.onrender.com",
   "basePath": "/",
   "schemes": [
+
     "https"
   ],
   "paths": {
@@ -24,6 +25,7 @@
         }
       }
     },
+
     "/contacts/": {
       "get": {
         "tags": [
