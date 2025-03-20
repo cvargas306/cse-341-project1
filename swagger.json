@@ -5,29 +5,21 @@
     "description": "Contacts Api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "https://project1-ksco.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
     "/": {
       "get": {
+        "tags": [
+          "Hello, World!"
+        ],
         "description": "",
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
           }
         }
       }
